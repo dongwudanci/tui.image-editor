@@ -22,11 +22,11 @@ jobs:
 
       # Install dependencies (required by Run tests step)
       - name: Install dependencies
-        run: yarn install
+        run: npm install
 
       # Build
-      - name: Run tests
-        run: yarn build
+      - name: Run build
+        run: npm build
 
       # Configure Git
       - name: Git configuration
