@@ -30,7 +30,7 @@ class Text extends Submenu {
       textEffectButton: this.selector('.tie-text-effect-button'),
       textAlignButton: this.selector('.tie-text-align-button'),
       textColorpicker: new Colorpicker(this.selector('.tie-text-color'), {
-        defaultColor: '#ffbb3b',
+        defaultColor: '#000000',
         toggleDirection: this.toggleDirection,
         usageStatistics: this.usageStatistics,
       }),
