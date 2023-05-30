@@ -44126,7 +44126,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !(c
 
 
 var SHAPE_DEFAULT_OPTION = {
-  stroke: '#ffbb3b',
+  stroke: '#000000',
   fill: '',
   strokeWidth: 3
 };
@@ -44174,7 +44174,7 @@ var Shape = /*#__PURE__*/function (_Submenu) {
         usageStatistics: _this.usageStatistics
       }),
       strokeColorpicker: new colorpicker(_this.selector('.tie-color-stroke'), {
-        defaultColor: '#ffbb3b',
+        defaultColor: '#000000',
         toggleDirection: _this.toggleDirection,
         usageStatistics: _this.usageStatistics
       })
@@ -45387,7 +45387,7 @@ var Text = /*#__PURE__*/function (_Submenu) {
       textEffectButton: _this.selector('.tie-text-effect-button'),
       textAlignButton: _this.selector('.tie-text-align-button'),
       textColorpicker: new colorpicker(_this.selector('.tie-text-color'), {
-        defaultColor: '#ffbb3b',
+        defaultColor: '#000000',
         toggleDirection: _this.toggleDirection,
         usageStatistics: _this.usageStatistics
       }),
@@ -45914,7 +45914,7 @@ var Icon = /*#__PURE__*/function (_Submenu) {
       registerIconButton: _this.selector('.tie-icon-image-file'),
       addIconButton: _this.selector('.tie-icon-add-button'),
       iconColorpicker: new colorpicker(_this.selector('.tie-icon-color'), {
-        defaultColor: '#ffbb3b',
+        defaultColor: '#000000',
         toggleDirection: _this.toggleDirection,
         usageStatistics: _this.usageStatistics
       })
@@ -46799,7 +46799,7 @@ var Filter = /*#__PURE__*/function (_Submenu) {
           usageStatistics: this.usageStatistics
         }),
         filterBlendColor: new colorpicker(this.selector('.tie-filter-blend-color'), {
-          defaultColor: '#ffbb3b',
+          defaultColor: '#000000',
           toggleDirection: this.toggleDirection,
           usageStatistics: this.usageStatistics
         }),
@@ -50552,7 +50552,7 @@ var ImageTracer = /*#__PURE__*/function () {
             fontStyle = _this12$ui$text.fontStyle,
             fontWeight = _this12$ui$text.fontWeight,
             underline = _this12$ui$text.underline;
-        var fontFamily = 'Noto Sans';
+        var fontFamily = 'Comic Sans MS, Comic Sans, cursive';
 
         _this12.addText('Double Click', {
           position: pos.originPosition,
